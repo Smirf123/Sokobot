@@ -42,11 +42,8 @@ public class InfoCommand extends Command {
                 "Add to your server",
                 "https://top.gg/bot/713635251703906336\nSokobot is currently in " + Bot.getShardManager().getGuilds()
                                                                                        .size() + " servers.", false);
-        /*
-        // Official Support Server
         info.addField("Support / Feedback",
-        "Official Support Server: https://invite.affluentproductions.org/apserver", false);
-         */
+        "Official Support Server: https://discord.gg/5xXKmgRFHU", false);
         info.addField("Source code", "https://github.com/PolyMarsDev/Sokobot", false);
         info.setFooter("created by PolyMars", "https://avatars0.githubusercontent" + ".com/u/51007356?s=460&u"
                 + "=4eb8fd498421a2eee9781edfbadf654386cf06c7&v=4");
